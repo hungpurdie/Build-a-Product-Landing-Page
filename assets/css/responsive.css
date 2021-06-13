@@ -1,0 +1,333 @@
+/* Responsive */
+@media only screen and (max-width: 700px) {
+  /* Header */
+  #header-fixed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    position: fixed;
+  }
+  .logo-container {
+    position: relative;
+  }
+  .logo-container #header-img {
+    width: auto;
+    height: 50px;
+    transition: height 0.5s ease-in-out 0.1s;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  nav {
+    display: none;
+  }
+  #content-container {
+    position: relative;
+    top: 80px;
+    transition: top 1s ease-in-out;
+  }
+
+  /* Intro */
+  #intro {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    max-height: 650px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+  .intro-logo-container {
+    margin-top: 70px;
+  }
+  .intro-logo {
+    width: 100%;
+    height: auto;
+  }
+  .intro-h1-container h1 {
+    display: flex;
+    width: 90%;
+    font-size: 0.6em;
+  }
+  .intro-bottom-container {
+    width: 100%;
+    height: 70%;
+    margin-top: 140px;
+  }
+
+  .button.order-button {
+    font-size: 0.8em;
+    width: 150px;
+    height: 50px;
+  }
+
+  /*INTRO TRAILER IN DISPLAY NONE*/
+  .trailer-container {
+    display: none;
+  }
+  .intro-bottom-logos {
+    width: 100%;
+    display: block;
+  }
+  .social-icon-in img {
+    width: 20px;
+    height: 15px;
+  }
+  .social-icon-in .goo {
+    height: 60px;
+    width: 25px;
+    margin-right: 10px;
+  }
+  .intro-bottom-logos-right {
+    display: block;
+    position: absolute;
+    bottom: 30px;
+  }
+  .Cd-red-logo {
+    transform: scale(0.8);
+  }
+
+  /* Feature */
+
+  #features {
+    margin-top: -50px;
+  }
+  .features-h1-container {
+    width: 95%;
+    height: 30px;
+    position: relative;
+  }
+
+  .features-card {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-bottom: 20px;
+    padding: 0;
+    padding-top: 20px;
+  }
+
+  .title-bg {
+    height: 200px;
+  }
+  .title-h1-feat {
+    font-size: 2.52em;
+  }
+  .title-h1-feat::before {
+    margin-bottom: 20px;
+  }
+  .title-h1-feat::after {
+    margin-top: 27px;
+  }
+  .features-card .description {
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 0.8em;
+    padding: 0;
+    width: 85%;
+  }
+  .description span {
+    width: 15px;
+    height: 15px;
+  }
+  .bg2 {
+    font-size: 0.8em;
+  }
+
+  .title2::before {
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  .title2::after {
+    margin-top: 15px;
+  }
+  .d2 {
+    display: block;
+    margin: auto;
+  }
+  .features-bottom-container {
+    width: 90%;
+    height: 80px;
+    padding: 10px;
+  }
+  .bottom-feat-h1 {
+    font-size: 1em;
+    padding: 5px;
+    width: 75%;
+  }
+  .feat-blinky {
+    width: 10px;
+    height: 2px;
+  }
+
+  /* Gallery */
+  .gal-title h1 {
+    font-size: 2em;
+  }
+  .gallery-video {
+    width: 95% !important;
+    height: 315px !important;
+  }
+  .screenshots-inner-container {
+    overflow-x: auto;
+  }
+  .img-container img {
+    width: 100%;
+    height: 50%;
+  }
+
+  /* New Letter */
+  #news-letter {
+    width: 100%;
+    height: 750px;
+  }
+  .news-letter-inner-container {
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    top: 0;
+  }
+  .news-bg-container {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .news-info-container {
+    width: 100%;
+    padding: 10px 5px 10px 5px;
+  }
+  .news-info-container h1 {
+    font-size: 4em;
+  }
+  .news-info-container p {
+    font-size: 0.8em;
+  }
+  form {
+    margin-top: 30px;
+  }
+  .email-container {
+    width: 90%;
+    margin: auto;
+  }
+  .email-container::after {
+    position: absolute;
+    right: -2px;
+    bottom: 134px;
+  }
+  .email-field-box[type="email"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    height: 50px;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+  }
+  .check-info {
+    width: 90%;
+    font-size: 0.6em;
+  }
+  .submit-button {
+    height: 40px;
+    font-size: 1em;
+  }
+  .submit-button::after {
+    position: absolute;
+    bottom: 16px;
+  }
+
+  /* HardWare */
+  .hardware-title-container {
+    width: 80%;
+    height: 70px;
+    left: 0;
+    padding: 5px 8px 5px 8px;
+  }
+  .hardware-title-container h1 {
+    font-size: 1.3em;
+    text-align: right;
+  }
+  .hardware-inner-container {
+    background-position: right;
+  }
+  .hardware-filter-container {
+    width: 90%;
+  }
+  .hardware-info .specs-list li {
+    font-size: 1em;
+  }
+
+  /*Oder Now*/
+  #order-now {
+    padding-top: 0;
+    height: 900px;
+  }
+  .order-now-inner-container h1 {
+    font-size: 2.5em;
+  }
+  .order-now-filter-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .shop {
+    width: 90%;
+  }
+  .shop-img-container {
+    height: 100%;
+  }
+  .shop-a img,
+  .shop-b img {
+    box-shadow: 0 0 7px rgb(2, 241, 246);
+  }
+  .shop-a img:hover,
+  .shop-b img:hover {
+    filter: drop-shadow(0 3px 5px rgb(32, 199, 199));
+  }
+  .shop-button {
+    font-size: 0.8em;
+    height: 55px;
+    padding: 5px;
+  }
+
+  /* Footer */
+  .footer-bottom-container::before {
+    display: none;
+  }
+  .social-container::after {
+    display: none;
+  }
+
+  .footer-inner-info {
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  .footer-links {
+    font-size: 0.8em;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .footer-links li {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .foot-inner-social h2 {
+    font-size: 1em;
+  }
+  .cy img,
+  .fa img,
+  .tw img,
+  .yt img {
+    width: 30px;
+    height: 20px;
+  }
+  .footer-logo-container {
+    transform: scale(0.8);
+  }
+  .foot-bottom-logo {
+    transform: scale(0.2);
+  }
+}
